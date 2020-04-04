@@ -58,7 +58,7 @@ class InputBox(object):
                     self.color = black
                     self.active = False
                     name = self.text
-                    API_key = "9a38794d0adcf6788479964bf571f787"
+                    API_key = "key"
                     base_url = "http://api.openweathermap.org/data/2.5/weather?"
                     fore_url = 'http://api.openweathermap.org/data/2.5/forecast?'
                     fore_final = fore_url + 'q=' + name + '&appid=' + API_key
